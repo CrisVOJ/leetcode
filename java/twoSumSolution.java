@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /** Two Sum
  * Problem link: https://leetcode.com/problems/two-sum/
  * 
@@ -30,6 +32,6 @@ public class twoSumSolution {
 
         int[] solution = twoSum(nums, 9);
 
-        System.out.println("Solution: " + solution);
+        System.out.println("Solution: " + Arrays.toString(solution));
     }
 }
