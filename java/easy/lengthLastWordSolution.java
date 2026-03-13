@@ -1,3 +1,4 @@
+package easy;
 /** Length of Last Word
  * Problem link: https://leetcode.com/problems/length-of-last-word/
  * 

@@ -1,3 +1,4 @@
+package easy;
 /** Longest Common Prefix
  * Problem link: https://leetcode.com/problems/longest-common-prefix/
  * 

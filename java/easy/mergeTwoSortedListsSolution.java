@@ -1,4 +1,6 @@
-package mergeTwoSortedListsSolution;
+package easy;
+
+import shared.ListNode;
 
 /** Merge Two Sorted Lists
  * Problem link: https://leetcode.com/problems/two-sum/

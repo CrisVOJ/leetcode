@@ -1,3 +1,4 @@
+package easy;
 /** Remove Element
  * Problem link: https://leetcode.com/problems/remove-element/
  * 

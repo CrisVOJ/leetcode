@@ -1,4 +1,4 @@
-package mergeTwoSortedListsSolution;
+package shared;
 
 public class ListNode {
     public int val;

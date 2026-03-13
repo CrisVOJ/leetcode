@@ -9,7 +9,7 @@
 
 package medium;
 
-import mergeTwoSortedListsSolution.ListNode;
+import shared.ListNode;
 
 public class addTwoNumbersSolution {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {

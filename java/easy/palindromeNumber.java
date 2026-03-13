@@ -1,3 +1,4 @@
+package easy;
 /** Palindrome Number
  * Problem link: https://leetcode.com/problems/palindrome-number/
  * 
