@@ -3,7 +3,7 @@ package easy;
 import shared.ListNode;
 
 /** Merge Two Sorted Lists
- * Problem link: https://leetcode.com/problems/two-sum/
+ * Problem link: https://leetcode.com/problems/merge-two-sorted-lists/
  * 
  * Idea:
  *  At the start, I had a small idea that consists of comparing the elements of the two lists and adding the smaller one to the result list.

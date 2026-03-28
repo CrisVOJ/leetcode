@@ -1,4 +1,4 @@
-/** Longest Palindromic Substring
+/** Climbinh Stairs
  * Problem link: https://leetcode.com/problems/climbing-stairs/
  * 
  * Idea:

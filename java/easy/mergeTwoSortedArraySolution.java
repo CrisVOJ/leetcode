@@ -1,4 +1,4 @@
-/** Longest Palindromic Substring
+/** Merge Two Sorted Array
  * Problem link: https://leetcode.com/problems/merge-sorted-array/
  * 
  * Idea:

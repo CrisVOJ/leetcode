@@ -1,4 +1,4 @@
-/** Longest Palindromic Substring
+/** Remove Duplicates from Sorted List
  * Problem link: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
  * 
  * Idea:
