@@ -10,6 +10,7 @@
 package medium;
 
 import shared.ListNode;
+import shared.NodeUtils;
 
 public class addTwoNumbersSolution {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -39,25 +40,17 @@ public class addTwoNumbersSolution {
         return result.next;
     }
 
-    public static void showListNode(ListNode listNode) {
-        while (listNode.next != null) {
-            System.out.print(listNode.val + ", ");
-            listNode = listNode.next;
-        }
-        System.out.println(listNode.val);
-    }
-
     public static void main(String[] args) {
         ListNode test1List1 = new ListNode(2, new ListNode(4, new ListNode(3)));
         ListNode test1List2 = new ListNode(5, new ListNode(6, new ListNode(4)));
-        System.out.print("Result 1: "); showListNode(addTwoNumbers(test1List1, test1List2));
+        System.out.print("Result 1: "); NodeUtils.printListNode(addTwoNumbers(test1List1, test1List2));
 
         ListNode test2List1 = new ListNode(0);
         ListNode test2List2 = new ListNode(0);
-        System.out.print("Result 2: "); showListNode(addTwoNumbers(test2List1, test2List2));
+        System.out.print("Result 2: "); NodeUtils.printListNode(addTwoNumbers(test2List1, test2List2));
 
         ListNode test3List1 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))))));
         ListNode test3List2 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
-        System.out.print("Result 3: "); showListNode(addTwoNumbers(test3List1, test3List2));
+        System.out.print("Result 3: "); NodeUtils.printListNode(addTwoNumbers(test3List1, test3List2));
     }
 }

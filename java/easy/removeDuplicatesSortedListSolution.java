@@ -10,6 +10,7 @@
 package easy;
 
 import shared.ListNode;
+import shared.NodeUtils;
 
 public class removeDuplicatesSortedListSolution {
     public static ListNode deleteDuplicates(ListNode head) {
@@ -26,15 +27,7 @@ public class removeDuplicatesSortedListSolution {
         return head;
     }
 
-    public static void showListNode(ListNode listNode) {
-        while (listNode.next != null) {
-            System.out.print(listNode.val + ", ");
-            listNode = listNode.next;
-        }
-        System.out.println(listNode.val);
-    }
-
     public static void main(String[] args) {
-        System.out.print("Result 1: "); showListNode(deleteDuplicates(new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3)))))));
+        System.out.print("Result 1: "); NodeUtils.printListNode(deleteDuplicates(new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3)))))));
     }
 }
