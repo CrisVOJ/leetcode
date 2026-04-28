@@ -3,7 +3,7 @@
  * 
  * Idea:
  *  The algorithm uses an iterative approach with a stack to simulate recursion. We traverse the tree by moving to the left child, adding each node's value to the result list and pushing the node onto the stack. 
- * Once we reach a null child, we pop the last visited node from the stack and move to its right child to continue the process.
+ *  Once we reach a null child, we pop the last visited node from the stack and move to its right child to continue the process.
  * 
  * Complexity: O(n)
  * 
