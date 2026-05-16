@@ -5,6 +5,11 @@ import java.util.Queue;
 
 public class NodeUtils {
     public static void printListNode(ListNode head) {
+        if (head == null) {
+            System.out.println("[]");
+            return;
+        }
+
         ListNode current = head;
 
         while (current.next != null) {
